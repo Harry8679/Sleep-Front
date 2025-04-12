@@ -40,7 +40,7 @@ import ScrollToTop from "./components/common/ScrollTop";
 // import Blog1Page from "./pages/blogs/blog-list-1";
 // import Blog2Page from "./pages/blogs/blog-list-2";
 // import Blog3Page from "./pages/blogs/blog-list-3";
-// import NotFoundPage from "./pages/not-found";
+import NotFoundPage from "./pages/not-found";
 // import AboutUsPage from "./pages/others/about-us";
 // import ComparePage from "./pages/others/compare";
 // import ContactPage from "./pages/others/contact";
