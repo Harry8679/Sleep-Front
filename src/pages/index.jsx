@@ -1,4 +1,4 @@
-import Wrapper from "@/components/layout/Wrapper";
+import Wrapper from '../components/layout/Wrapper';
 import HomeMain from './homes/home-1'
 import MetaComponent from "@/components/common/MetaComponent";
 
