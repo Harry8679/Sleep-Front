@@ -137,16 +137,16 @@ function App() {
               <Route path="blog-details/:id" element={<BlogDetails />} /> */}
 
               <Route path="404" element={<NotFoundPage />} />
-              <Route path="about-us" element={<AboutUsPage />} />
+              {/* <Route path="about-us" element={<AboutUsPage />} /> */}
               {/* <Route path="compare" element={<ComparePage />} /> */}
-              <Route path="contact" element={<ContactPage />} />
-              <Route path="faq" element={<FaqPage />} />
+              {/* <Route path="contact" element={<ContactPage />} /> */}
+              {/* <Route path="faq" element={<FaqPage />} /> */}
               {/* <Route path="gallery" element={<PageGallery />} /> */}
-              <Route path="login" element={<LoginPage />} />
+              {/* <Route path="login" element={<LoginPage />} /> */}
               {/* <Route path="membership" element={<MembershipPage />} /> */}
-              <Route path="register" element={<RegisterPage />} />
-              <Route path="service" element={<ServicePage />} />
-              <Route path="terms" element={<TermsPage />} />
+              {/* <Route path="register" element={<RegisterPage />} /> */}
+              {/* <Route path="service" element={<ServicePage />} /> */}
+              {/* <Route path="terms" element={<TermsPage />} /> */}
 
               {/* <Route path="agency-v1" element={<AgencyV1Page />} />
               <Route path="agency-v2" element={<AgencyV2Page />} />
