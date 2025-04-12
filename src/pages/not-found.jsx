@@ -2,9 +2,11 @@
 
 
 
-import NotFound from "@/components/404";
+// import NotFound from "@/components/404";
 
-import MetaComponent from "@/components/common/MetaComponent";
+// import MetaComponent from "@/components/common/MetaComponent";
+import { NotFound } from '@/components/404';
+import MetaComponent from '../components/common/MetaComponent';
 
 const metadata = {
   title: '404 Not Found || FindHouse - Real Estate React Template',
