@@ -55,21 +55,21 @@ const FeaturedProperties = () => {
                   <ul className="tag mb0">
                     {item.saleTag.map((val, i) => (
                       <li className="list-inline-item" key={i}>
-                        <a href="#">{val}</a>
+                        <Link href="#">{val}</Link>
                       </li>
                     ))}
                   </ul>
 
                   <ul className="icon mb0">
                     <li className="list-inline-item">
-                      <a href="#">
+                      <Link href="#">
                         <span className="flaticon-transfer-1"></span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="list-inline-item">
-                      <a href="#">
+                      <Link href="#">
                         <span className="flaticon-heart"></span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
 
@@ -98,9 +98,9 @@ const FeaturedProperties = () => {
                   <ul className="prop_details mb0">
                     {item.itemDetails.map((val, i) => (
                       <li className="list-inline-item" key={i}>
-                        <a href="#">
+                        <Link href="#">
                           {val.name}: {val.number}
-                        </a>
+                        </Link>
                       </li>
                     ))}
                   </ul>
