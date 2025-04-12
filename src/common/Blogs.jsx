@@ -41,9 +41,9 @@ const Blogs = () => {
                     <Link to="/agent-v2">{item.posterName}</Link>
                   </li>
                 </ul>
-                <a className="fp_pdate float-end" href="#">
+                <Link className="fp_pdate float-end" href="#">
                   {item.postedDate}
-                </a>
+                </Link>
               </div>
             </div>
           </div>
