@@ -1,6 +1,6 @@
 import { Provider } from "react-redux";
 import { store } from "./store/store";
-import ScrollToTop from "@/components/common/ScrollTop";
+// import ScrollToTop from "@/components/common/ScrollTop";
 import "../public/assets/scss/index.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -15,6 +15,7 @@ import HomePage4 from "./pages/homes/home-4";
 // import HomePage10 from "./pages/homes/home-10";
 // import HomePage2 from "./pages/homes/home-2";
 import ScrollTopBehaviour from "./components/common/ScrollTopBehaviour";
+import ScrollToTop from "./components/common/ScrollTop";
 // import ListingGridPage1 from "./pages/listings/listing-grid-v1";
 // import ListingGridPage2 from "./pages/listings/listing-grid-v2";
 // import ListingGridPage3 from "./pages/listings/listing-grid-v3";
